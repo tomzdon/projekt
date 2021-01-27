@@ -3,15 +3,26 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" , content="width-device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="wrapper">
-        <nav class="nav">
-            <div class="menu">
+    <div class="wrapper ">
+        <nav class="nav ">
+            <h1 class="col-sm-4">J. D</h1>
+            <div class="col-sm-8 menu">
+
                 <!--  <img src="images/_elementy_gradient_menu.png">-->
                 <ul>
                     <li>
@@ -29,13 +40,48 @@
                     <li>
                         <a href="#">Contact me</a>
                     </li>
+                    <li>
+                        <div class="line"></div>
+                        <div>
+                            <img class="menu-img" src="images/twitter_icon.png" alt="twitter">
+                            <img class="menu-img" src="images/facebook_icon.png" alt="facebok">
+                            <img class="menu-img" src="images/linkedin_icon.png" alt="linkedin">
+                        </div>
+                    </li>
                 </ul>
-                <img class="menu-img" src="images/twitter_icon.png" alt="twitter">
-                <img class="menu-img" src="images/facebook_icon.png" alt="facebok">
-                <img class="menu-img" src="images/linkedin_icon.png" alt="linkedin">
+
             </div>
         </nav>
-        <img class="koła-jeden" src="images/koła_01.png">
+        <main class="container-fluid mt-5">
+            <article class="container dialog mt-6">
+                <p class="articlee">//Hi, My name is John Doe</p>
+                <p class="articlee">Software Engineer</p>
+                <p class="articlee">Passionate Techy and Tech Author with 3 years of experience within the field. </p>
+                <p class="articlee">See my works</p>
+                <img src="images/bit_bucket_icon.png">
+                <img src="images/dev_icon.png">
+            </article>
+
+            <div class="row">
+                <div class="col-6 image-portfolio">
+                    <img src="images/zdjecie portfolio2.jpg" width="400px" height="500px" alt="mojezdjecie">
+                    <img src="images/koła_03.png" id="kolo1" width="400px" height="400px" alt="kolo">
+                    <img src="images/koła_02.png" id="kolo2" width="300px" height="300px" alt="kolo">
+                </div>
+                <class class="col-6 download-cv">
+                    <h2>// I am a freelancer</h2>
+                    <p>Contact me if you want to work with me</p>
+                    <div>
+                        <button class="photo-button">Hire me</button>
+                        <button class="photo-button">Download CV</button>
+                    </div>
+                    <img src="images/koła_02.png" id="kolo2" width="400px" height="400px" alt="kolo">
+                </class>
+            </div>
+
+        </main>
+
+        <!-- <img class="koła-jeden" src="images/koła_01.png">
         <img class="koła-dwa" src="images/koła_02.png">
         <img class="koła-trzy" src="images/koła_03.png">
         <div class="header">
@@ -242,7 +288,7 @@
                 <p>repository type: Open-source</p>
                 <p>url: github.com/johndoe </p>
             </div>
-        </div>
+        </div> -->
     </div>
 </body>
 
